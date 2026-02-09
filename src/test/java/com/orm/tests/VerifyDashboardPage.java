@@ -54,10 +54,12 @@ public class VerifyDashboardPage extends BaseTest {
 	
 	if(dashboardPage.verifyPendingActions()!=null) {
 		System.out.println(dashboardPage.verifyPendingActions());
+
 	System.out.println("-----------------------------");
 	System.out.println(dashboardPage.verifyPendingActions().size());
 	}
 	
+
 	else
 		System.out.println("Action items are null");
 	
