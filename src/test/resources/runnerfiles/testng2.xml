@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name=" Test ORM Suite" parallel="tests" thread-count="2" >
+
+<listeners>
+
+ <listener class-name="com.orm.listeners.ExtentReportListeners"/>
+
+</listeners>
+
+
+  <test  name="Login Functionality Verification Test cases">
+    <classes>
+      <class name="com.orm.tests.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="ORM Dashboard Functionality Test cases">
+    <classes>
+      <class name="com.orm.tests.VerifyDashboardPage"/>
+    </classes>
+  </test> 
+  
+  
+   <test  name="ORM Personnel Details Functionality Test cases">
+    <classes>
+      <class name="com.orm.tests.MyPersonnelDetailsTest"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->

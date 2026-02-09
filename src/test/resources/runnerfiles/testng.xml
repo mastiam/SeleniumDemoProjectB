@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name=" Test ORM Suite">
+
+<listeners>
+
+ <listener class-name="com.orm.listeners.ExtentReportListeners"/>
+
+</listeners>
+
+
+  <test  name="Login ORM TEST 1">
+    <classes>
+      <class name="com.orm.tests.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+<!--  <test  name="Login ORM TEST 2">
+    <classes>
+      <class name="com.orm.tests.LoginPageTest2"/>
+    </classes>
+  </test> -->
+</suite> <!-- Suite -->
